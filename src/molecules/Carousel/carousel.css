@@ -1,0 +1,7 @@
+.carousel {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1em;
+}

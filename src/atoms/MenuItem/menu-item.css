@@ -1,0 +1,21 @@
+.menu-item {
+    font-size: 1em;
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.header__menu-item {
+    color: var(--science-blue);
+    text-shadow: .05em .05em var(--abbey);
+    margin-left: .5em;
+    transition: color .3s;
+}
+
+.header__menu-item:hover {
+    color: var(--abbey);
+}
+
+.header__menu-item:active {
+    color: var(--science-blue);
+}

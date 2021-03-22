@@ -1,0 +1,15 @@
+.textarea {
+    display: block;
+    font-size: 2em;
+    width: 80%;
+    min-height: 50vh;
+    padding: .2em;
+    border: 3px solid transparent;
+    outline: none;
+    background-color: transparent;
+    color: var(--abbey);
+    text-align: center;
+    resize: none;
+    overflow: hidden;
+    white-space: normal;
+}

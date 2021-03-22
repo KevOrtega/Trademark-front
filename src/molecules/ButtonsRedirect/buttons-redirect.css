@@ -1,0 +1,14 @@
+.buttons-redirect {
+    width: 100%;
+    margin: 20em 0 10em;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.svg-logo-clicking {
+    position: absolute;
+    width: 10em;
+    height: 10em;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.heading {
+    align-self: flex-start;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: .2em;
+    padding: 0;
+    color: var(--acadia);
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.heading-h1 {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    font-size: 7em;
+    left: 0;
+    right: 0;
+    bottom: .2em;
+    color: var(--white);
+    text-transform: uppercase;
+    text-shadow: 0.03em 0.03em var(--abbey);
+    text-align: center;
+    cursor: default;
+}
+
+.page-site__title-section {
+    align-self: inherit;
+    padding-right: .1em;
+}
+
+.page-site__image-title {
+    z-index: 1;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    align-self: inherit;
+    color: var(--ivory);
+    text-transform: capitalize;
+}

@@ -1,0 +1,7 @@
+.link {
+    all: unset;
+    cursor: pointer;
+    color: inherit;
+    text-shadow: inherit;
+    margin-left: inherit;
+}

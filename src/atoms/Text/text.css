@@ -1,0 +1,27 @@
+.text {
+    align-self: flex-start;
+    font-size: 1em;
+    margin: 0;
+    text-align: left;
+    text-transform: none;
+    text-indent: .2em;
+}
+
+.text-black {
+    color: var(--abbey);
+}
+
+.text-white {
+    color: var(--ivory);
+}
+
+.page-site__text-white {
+    align-self: inherit;
+    max-width: 60%;
+    text-align: right;
+}
+
+.page-site__text-black {
+    align-self: inherit;
+    max-width: 60%;
+}

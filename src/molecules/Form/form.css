@@ -1,0 +1,48 @@
+.form {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    transition: transform 1s, opacity .5s;
+}
+
+.form-log-in--enter {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.form-log-in--enter-active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.form-log-in--exit {
+    position: absolute;
+    margin: auto;
+}
+
+.form-log-in--exit-active {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.form-sign-in--enter {
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.form-sign-in--enter-active {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.form-sign-in--exit {
+    margin: auto;
+}
+
+.form-sign-in--exit-active {
+    transform: translateX(100%);
+    opacity: 0;
+}

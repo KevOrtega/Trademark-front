@@ -1,0 +1,15 @@
+.header {
+    z-index: 5;
+    position: fixed;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    top: 0;
+    right: 0;
+}
+
+.header-home {
+    position: relative;
+    height: 15em;
+    background-color: var(--venice-blue);
+}
